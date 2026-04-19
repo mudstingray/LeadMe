@@ -7,7 +7,7 @@
 </div>
 
 <div align="center">
-  <h3>LeadMe - The Program Helping Students To Be Great Leaders</h3>
+  <h3>LeadMe - The Program Helping Students To Be The Great Leaders</h3>
 </div>
 
 
