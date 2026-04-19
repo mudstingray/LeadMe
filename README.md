@@ -1,8 +1,6 @@
 <div align="center">
-  <a href="..">
-    <picture>
-      <img alt="LeadMe Logo" src=".github/images/logo-dark.svg" width="50%">
-    </picture>
+  <a href=".">
+    <img alt="LeadMe Logo" src="assets/pictures/LeadMeLogo.png" width="50%">
   </a>
 </div>
 
