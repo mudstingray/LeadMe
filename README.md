@@ -1,9 +1,7 @@
 <div align="center">
-  <a href="https://docs.langchain.com/oss/python/deepagents/overview#deep-agents-overview">
+  <a href="..">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset=".github/images/logo-dark.svg">
-      <source media="(prefers-color-scheme: light)" srcset=".github/images/logo-light.svg">
-      <img alt="Deep Agents Logo" src=".github/images/logo-dark.svg" width="50%">
+      <img alt="LeadMe Logo" src=".github/images/logo-dark.svg" width="50%">
     </picture>
   </a>
 </div>
@@ -16,6 +14,7 @@
 <div align="center">
   <a href="https://opensource.org/licenses/MIT" target="_blank"><img src="https://img.shields.io/pypi/l/deepagents" alt="PyPI - License"></a>
   <a href="https://github.com/gmtigrisva123" target="_blank"><img src="https://img.shields.io/badge/github-repo-blue?logo=github" alt="Github Contributors"></a>
+  <a href="https://github.com/gmtigrisva123" target="_blank"><img src="https://img.shields.io/badge/haha%20hello%20hehe-8A2BE2" alt="Github Contributors"></a>
 
 </div>
 
