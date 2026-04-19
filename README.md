@@ -12,8 +12,11 @@ Students are gradually introduced to leadership concepts starting from the small
 
 
 ## 🎯 Motivation
-Vietnam is the place where every student has the ability to shine themselves, having the ability to do research, some projects. However, students are not being given much opportunities to be some good-quality leaders. They would just do activities that must be followed, and they will do such things that are given to them, as far as I'm concerned and observing carefully. Even though not every children would not have the ability to develop leadership and it does not affect to every aspect and does not effect to every students, I believe overall students should be given much more opportunities than that when it comes to leadership without much theoretical concepts or models which are increasingly being boring these days in purpose of developing soft skills. Seeing that problem and observing that concerns, this project aims directly to students - the people just at the age 14-17 - to be able to make Vietnam the best country when it comes to leadership.
+Vietnam is a country where students possess strong academic potential and a growing capacity for research, innovation, and project-based learning. Despite this, meaningful opportunities for students to develop authentic leadership skills remain relatively limited in many educational environments.
 
+In many cases, students are placed in highly structured systems where they are primarily expected to complete assigned tasks rather than actively take initiative, make decisions, or lead others. As a result, leadership development often becomes implicit rather than intentional, with limited opportunities for students to experience real responsibility, ambiguity, and team dynamics in practice.
+
+While this does not apply uniformly to every student, and individual needs may vary, there is a broader and persistent gap in how leadership is cultivated at the secondary education level. In particular, students are rarely exposed to environments that encourage them to lead without relying heavily on predefined theoretical models or rigid instructional frameworks, which can often feel disconnected from real-world leadership challenges.
 ## ⚙️ Methodology / Approach
 ...
 
