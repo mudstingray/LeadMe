@@ -1,8 +1,8 @@
-<div align="center">
+<p align="center">
   <a href=".">
-    <img alt="LeadMe Logo" src="assets/pictures/LeadMeLogo.png" width="50%">
+    <img alt="LeadMe Logo" src="assets/pictures/LeadMeLogo.png" width="200">
   </a>
-</div>
+</p>
 
 <div align="center">
   <h3>LeadMe - The Program Helping Students To Be The Great Leaders</h3>
