@@ -15,6 +15,8 @@
 
 <div align="center">
   <a href="https://opensource.org/licenses/MIT" target="_blank"><img src="https://img.shields.io/pypi/l/deepagents" alt="PyPI - License"></a>
+  <a href="https://www.instagram.com/gmtigrisva/" target="_blank"><img src="https://img.shields.io/badge/github-repo-blue?logo=github" alt="Instagram / IG"></a>
+
 </div>
 
 
