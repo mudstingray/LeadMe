@@ -82,10 +82,105 @@ LeadMe is designed to address this gap by providing a structured, experiential f
 ...
 
 ## 🧩 Tech Stack
-...
+
+### Web Application
+The LeadMe program includes a modern, full-stack web application built with:
+
+**Frontend & Framework:**
+- **Next.js 16** - React-based framework with server-side rendering and static generation
+- **React 19** - UI library with latest features
+- **TypeScript** - Type-safe development
+- **Tailwind CSS 4** - Utility-first styling framework
+
+**Backend & Database:**
+- **Next.js API Routes** - Serverless backend endpoints
+- **Prisma ORM** - Database abstraction with automatic migrations
+- **SQLite** (Development) / **PostgreSQL** (Production) - Database storage
+- **NextAuth.js** - Authentication and session management
+
+**State Management & Forms:**
+- **Zustand** - Lightweight client-side state management
+- **React Hook Form** - Efficient form state handling
+- **Zod** - Runtime type validation for forms and API data
+
+**UI & Visualization:**
+- **shadcn/ui** - Pre-built, accessible React components
+- **Recharts** - Data visualization for progress tracking
+- **Lucide React** - Icon library
+
+**Development Tools:**
+- **ESLint & TypeScript** - Code quality and type checking
+- **Tailwind CSS** - Modern responsive design utilities
+
+### Project Structure
+
+```
+LeadMe/
+├── web/                          # Next.js web application
+│   ├── src/
+│   │   ├── app/                  # Pages and API routes
+│   │   │   ├── (auth)/          # Authentication pages
+│   │   │   ├── (dashboard)/     # Protected dashboard
+│   │   │   ├── api/             # Backend endpoints
+│   │   │   └── page.tsx         # Landing page
+│   │   ├── components/           # React components
+│   │   │   ├── ui/              # Base UI components
+│   │   │   ├── challenges/      # Challenge features
+│   │   │   ├── teams/           # Team features
+│   │   │   └── progress/        # Progress tracking
+│   │   └── lib/                 # Utilities and helpers
+│   ├── prisma/
+│   │   └── schema.prisma        # Database models
+│   ├── public/                  # Static assets
+│   └── package.json             # Dependencies
+├── README.md                     # Main documentation (you are here)
+├── CONTRIBUTING.md              # Contribution guidelines
+└── LICENSE                      # MIT License
+```
+
+### Web Application Features
+
+**Core Features Implemented:**
+- ✅ Database schema with User, Challenge, Team, Progress, Assessment models
+- ✅ API endpoints for challenge management (CRUD operations)
+- ✅ Reusable UI components (Button, Card, Badge, ChallengeCard)
+- ✅ Progress tracking with milestone system
+- ✅ Authentication framework with NextAuth.js
+- ✅ Form validation with Zod schemas
+- ✅ Dashboard layout with navigation
+- ✅ Beautiful landing page
+
+**Progressive Learning System:**
+- Three-stage leadership development path:
+  - **Foundational** - Basic teamwork and communication
+  - **Intermediate** - Team leadership and decision-making
+  - **Advanced** - Strategic thinking and organizational leadership
+
+**Key Documentation Files:**
+- `web/QUICKSTART.md` - Quick reference guide
+- `web/STRUCTURE.md` - Detailed architecture documentation
+- `web/README.md` - Web app getting started guide
+
 
 ## 📊 Results
 ...
 
 ## 🚀 How to run
-...
+
+Follow these steps to launch the web application locally. For detailed web-specific setup and architecture, see `web/README.md`.
+
+```bash
+cd web
+npm install
+cp .env.example .env.local
+npx prisma migrate dev --name init
+npm run dev
+```
+
+Then open:
+
+```text
+http://localhost:3000
+```
+
+If you need a faster reference for commands, use `web/QUICKSTART.md`. If you want the full project architecture and folder guide, use `web/STRUCTURE.md`.
