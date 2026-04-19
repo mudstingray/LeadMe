@@ -1,0 +1,158 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = "file:./dev.db"
+}
+
+model User {
+  id        String   @id @default(cuid())
+  email     String   @unique
+  name      String?
+  role      Role     @default(STUDENT)
+  avatar    String?
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  // Relations
+  progress   Progress[]
+  teams      TeamMember[]
+  assessments Assessment[]
+  challenges ChallengeParticipant[]
+
+  @@map("users")
+}
+
+model Challenge {
+  id          String   @id @default(cuid())
+  title       String
+  description String?
+  type        ChallengeType
+  difficulty  Difficulty
+  content     String?  // JSON or markdown content
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  // Relations
+  participants ChallengeParticipant[]
+
+  @@map("challenges")
+}
+
+model Team {
+  id        String   @id @default(cuid())
+  name      String
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  // Relations
+  members TeamMember[]
+
+  @@map("teams")
+}
+
+model Progress {
+  id        String   @id @default(cuid())
+  userId    String
+  stage     LeadershipStage
+  milestone String
+  achieved  Boolean  @default(false)
+  achievedAt DateTime?
+  createdAt DateTime @default(now())
+
+  // Relations
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, milestone])
+  @@map("progress")
+}
+
+model Assessment {
+  id        String   @id @default(cuid())
+  userId    String
+  assessorId String
+  type      AssessmentType
+  score     Int?
+  feedback  String?
+  createdAt DateTime @default(now())
+
+  // Relations
+  user     User @relation(fields: [userId], references: [id], onDelete: Cascade)
+  assessor User @relation(fields: [assessorId], references: [id])
+
+  @@map("assessments")
+}
+
+model TeamMember {
+  id     String @id @default(cuid())
+  userId String
+  teamId String
+  role   TeamRole @default(MEMBER)
+
+  // Relations
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+  team Team @relation(fields: [teamId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, teamId])
+  @@map("team_members")
+}
+
+model ChallengeParticipant {
+  id         String @id @default(cuid())
+  userId     String
+  challengeId String
+  status     ParticipationStatus @default(NOT_STARTED)
+
+  // Relations
+  user     User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  challenge Challenge @relation(fields: [challengeId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, challengeId])
+  @@map("challenge_participants")
+}
+
+// Enums
+enum Role {
+  STUDENT
+  MENTOR
+  ADMIN
+}
+
+enum ChallengeType {
+  INDIVIDUAL
+  TEAM
+}
+
+enum Difficulty {
+  FOUNDATIONAL
+  INTERMEDIATE
+  ADVANCED
+}
+
+enum LeadershipStage {
+  FOUNDATIONAL
+  INTERMEDIATE
+  ADVANCED
+}
+
+enum AssessmentType {
+  SELF
+  PEER
+  MENTOR
+}
+
+enum TeamRole {
+  LEADER
+  MEMBER
+}
+
+enum ParticipationStatus {
+  NOT_STARTED
+  IN_PROGRESS
+  COMPLETED
+}
