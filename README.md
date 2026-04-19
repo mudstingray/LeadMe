@@ -24,15 +24,15 @@ CEOs and founders of major global corporations
 
 However, the focus is not on imitation, but on understanding the underlying traits that define impactful leadership, including:
 
-Strategic thinking
++ Strategic thinking
 
-Vision and innovation
++ Vision and innovation
 
-Decision-making under uncertainty
++ Decision-making under uncertainty
 
-Communication and influence
++ Communication and influence
 
-Resilience and adaptability
++ Resilience and adaptability
 
 ### 📈 Progressive Learning Path
 Students will be guided through a structured, step-by-step development journey:
