@@ -13,6 +13,11 @@
 </div>
 
 
+<div align="center">
+  <a href="https://opensource.org/licenses/MIT" target="_blank"><img src="https://img.shields.io/pypi/l/deepagents" alt="PyPI - License"></a>
+</div>
+
+
 # LeadMe - The Program Helping Students To Be Great Leaders
 ##### The name LeadMe refers to The name “LeadMe” reflects the dual essence of the program: learning to lead others while also being guided through the process of becoming a leader. On one level, it represents the idea of being led—where students are initially supported, guided, and structured through progressively challenging leadership experiences. On another level, it embodies the transformation toward becoming a leader, where learners gradually develop the confidence and capability to lead themselves and others independently. Ultimately, “LeadMe” captures a journey rather than a destination: a continuous process of growth where guidance evolves into self-direction, and participation evolves into leadership.
 
