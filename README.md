@@ -1,4 +1,5 @@
-# LeadMe
+# LeadMe - The Program Helping Students To Be Great Leaders
+##### The name LeadMe refers to 
 
 ## 🧠 Overview
 ### Student-Centered Approach
@@ -29,25 +30,28 @@ Resilience and adaptability
 ### 📈 Progressive Learning Path
 Students will be guided through a structured, step-by-step development journey:
 
-- Foundational Stage
+#### Foundational Stage
 - Understanding teamwork roles
 - Learning responsibility in small group tasks
 - Building communication confidence
-- Intermediate Stage
+#### Intermediate Stage
 - Leading small teams
 - Managing simple projects
 - Practicing delegation and coordination
-- Advanced Stage
+#### Advanced Stage
 - Leading complex team projects
 - Handling real-time decision-making
 - Managing performance and accountability
 
 ## 🎯 Motivation
-Vietnam is a country where students possess strong academic potential and a growing capacity for research, innovation, and project-based learning. Despite this, meaningful opportunities for students to develop authentic leadership skills remain relatively limited in many educational environments.
+Vietnam is a country with strong student potential in academics, research, and project-based learning. However, opportunities for students to develop authentic, practice-based leadership skills remain limited within many traditional educational environments.
 
-In many cases, students are placed in highly structured systems where they are primarily expected to complete assigned tasks rather than actively take initiative, make decisions, or lead others. As a result, leadership development often becomes implicit rather than intentional, with limited opportunities for students to experience real responsibility, ambiguity, and team dynamics in practice.
+In most cases, students operate within highly structured systems where success is defined by task completion rather than initiative, leadership, or independent decision-making. As a result, leadership development often occurs indirectly, without sufficient exposure to real responsibility, ambiguity, or team-based problem-solving.
 
-While this does not apply uniformly to every student, and individual needs may vary, there is a broader and persistent gap in how leadership is cultivated at the secondary education level. In particular, students are rarely exposed to environments that encourage them to lead without relying heavily on predefined theoretical models or rigid instructional frameworks, which can often feel disconnected from real-world leadership challenges.
+While this limitation does not apply uniformly to all students, there remains a clear and persistent gap between students’ potential and their access to meaningful leadership experiences—particularly those grounded in practice rather than theory.
+
+LeadMe is designed to address this gap by providing a structured, experiential framework for leadership development for students aged 14–17, emphasizing real-world decision-making, collaboration, and progressive responsibility.
+
 ## ⚙️ Methodology / Approach
 ...
 
