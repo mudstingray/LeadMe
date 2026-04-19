@@ -13,8 +13,8 @@
 
 <div align="center">
   <a href="https://opensource.org/licenses/MIT" target="_blank"><img src="https://img.shields.io/pypi/l/deepagents" alt="PyPI - License"></a>
-  <a href="https://github.com/gmtigrisva123" target="_blank"><img src="https://img.shields.io/badge/github-contributor1-blue?logo=github" alt="Github Contributors"></a>
-  <a href="https://github.com/gmtigrisva123" target="_blank"><img src="https://img.shields.io/badge/haha%20hello%20hehe-8A2BE2" alt="Github Contributors"></a>
+  <a href="https://github.com/gmtigrisva123" target="_blank"><img src="https://img.shields.io/badge/github-contributor1-blue?logo=github" alt="Github Contributors 1"></a>
+  <a href="https://github.com/mudstingray" target="_blank"><img src="https://img.shields.io/badge/github-contributor2-blue?logo=github" alt="Github Contributors"></a>
 
 </div>
 
