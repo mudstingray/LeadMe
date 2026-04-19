@@ -1,0 +1,10 @@
+# Define code owners for repository paths
+# Use GitHub usernames or teams. Replace placeholders as needed.
+
+# Default owner for everything
+* @your-github-username
+
+# Web app files
+/web/ @your-github-username
+/web/src/ @your-github-username
+/web/prisma/ @your-github-username
