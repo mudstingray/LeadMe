@@ -12,7 +12,7 @@ Students are gradually introduced to leadership concepts starting from the small
 
 
 ## 🎯 Motivation
-...
+Vietnam is the place where every student has the ability to shine themselves, having the ability to do research, some projects. However, students are not being given much opportunities to be some good-quality leaders. They would just do activities that must be followed, and they will do such things that are given to them, as far as I'm concerned and observing carefully. Even though not every children would not have the ability to develop leadership and it does not affect to every aspect and does not effect to every students, I believe overall students should be given much more opportunities than that when it comes to leadership without much theoretical concepts or models which are increasingly being boring these days in purpose of developing soft skills. Seeing that problem and observing that concerns, this project aims directly to students - the people just at the age 14-17 - to be able to make Vietnam the best country when it comes to leadership.
 
 ## ⚙️ Methodology / Approach
 ...
