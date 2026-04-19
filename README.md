@@ -10,6 +10,37 @@ Leadership is not taught—it is developed through action, reflection, and conti
 
 Students are gradually introduced to leadership concepts starting from the smallest, most fundamental tasks, and progressively advance toward managing larger, more complex responsibilities.
 
+### 🚀 Leadership Model
+The program aims to help students cultivate leadership qualities inspired by globally recognized leaders such as:
+
+Donald Trump
+Steve Jobs
+Elon Musk
+CEOs and founders of major global corporations
+
+However, the focus is not on imitation, but on understanding the underlying traits that define impactful leadership, including:
+
+Strategic thinking
+Vision and innovation
+Decision-making under uncertainty
+Communication and influence
+Resilience and adaptability
+
+### 📈 Progressive Learning Path
+Students will be guided through a structured, step-by-step development journey:
+
+- Foundational Stage
+- Understanding teamwork roles
+- Learning responsibility in small group tasks
+- Building communication confidence
+- Intermediate Stage
+- Leading small teams
+- Managing simple projects
+- Practicing delegation and coordination
+- Advanced Stage
+- Leading complex team projects
+- Handling real-time decision-making
+- Managing performance and accountability
 
 ## 🎯 Motivation
 Vietnam is a country where students possess strong academic potential and a growing capacity for research, innovation, and project-based learning. Despite this, meaningful opportunities for students to develop authentic leadership skills remain relatively limited in many educational environments.
