@@ -14,9 +14,9 @@ Students are gradually introduced to leadership concepts starting from the small
 ### 🚀 Leadership Model
 The program aims to help students cultivate leadership qualities inspired by globally recognized leaders such as:
 
-Donald Trump
-Steve Jobs
-Elon Musk
+Donald Trump,
+Steve Jobs,
+Elon Musk,
 CEOs and founders of major global corporations
 
 However, the focus is not on imitation, but on understanding the underlying traits that define impactful leadership, including:
