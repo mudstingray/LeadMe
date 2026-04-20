@@ -159,10 +159,6 @@ LeadMe/
 - `web/STRUCTURE.md` - Detailed architecture documentation
 - `web/README.md` - Web app getting started guide
 
-
-## 📊 Results
-...
-
 ## 🚀 How to run
 
 Follow these steps to launch the web application locally. For detailed web-specific setup and architecture, see `web/README.md`.
