@@ -252,15 +252,18 @@ Follow these steps to launch the web application locally. For detailed web-speci
 ```bash
 cd web
 npm install
-cp .env.example .env.local
+# Copy environment variables
+cp .env.example .env.local   # Update DATABASE_URL inside .env.local
+# Run database migrations (uses SQLite by default)
 npx prisma migrate dev --name init
 npm run dev
 ```
 
 Then open:
+```bash
+Then open http://localhost:3000
 
-```text
-http://localhost:3000
+You should see the LeadMe homepage with lesson modules.
 ```
 
 If you need a faster reference for commands, use `web/QUICKSTART.md`. If you want the full project architecture and folder guide, use `web/STRUCTURE.md`.
