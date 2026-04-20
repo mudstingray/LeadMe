@@ -259,7 +259,6 @@ npx prisma migrate dev --name init
 npm run dev
 ```
 
-Then open:
 ```bash
 Then open http://localhost:3000
 
